@@ -1,0 +1,30 @@
+# BinarySearchTree Project
+# Building the Project with CMake
+## Project Description
+
+This is a C project that includes multiple files and dependencies. This project implements a binary search tree.
+
+## Dependencies
+
+To build the project, you need to install the following dependencies:
+* CMake
+* C Compiler (e.g. GCC)
+
+## Cloning the Repository
+
+Before starting the build process, you need to clone the repository to your local computer
+
+``` git clone https://github.com/andreu5547/BinarySearchTree_c.git ```
+
+## Building the Project with CMake
+1. Navigate to the root directory of the project:
+```cd BinarySearchTree_c```
+2. Create a "build" directory:
+```mkdir build```
+3. Navigate to the "build" directory:
+```cd build```
+4. Generate the project files with CMake:
+```cmake ..```
+5. Build the project:
+```cmake --build .```
+6. Profit
